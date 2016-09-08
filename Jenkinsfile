@@ -3,5 +3,5 @@ node ('build') {
   checkout scm
 
   stage 'build'
-  sh ./activator dist
+  sh 'bin/activator dist'
 }
