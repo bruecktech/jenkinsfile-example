@@ -1,5 +1,5 @@
-node ('build'){
-  stage 'Checkout'
+node ('build') {
+  stage 'Checkout' {
     checkout scm
     echo 'Hello from Pipeline'
   }
