@@ -1,4 +1,4 @@
-node ('build'){
+node ('node'){
   stage 'the first stage' {
     echo 'Hello from Pipeline'
   }
