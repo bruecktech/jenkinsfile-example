@@ -1,8 +1,9 @@
-node ('node'){
-  stage 'the first stage' {
+node ('build'){
+  stage 'Checkout'
+    checkout scm
     echo 'Hello from Pipeline'
   }
-  stage 'stage 2' {
+  stage 'Cleanup' {
     echo 'Stage 2 is executing'
   }
 }
