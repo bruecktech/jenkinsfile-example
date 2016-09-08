@@ -1,6 +1,6 @@
 node ('build') {
   stage 'checkout' {
-    checkout scm
+    // checkout scm
     echo 'Hello from Pipeline'
   }
   stage 'build' {
